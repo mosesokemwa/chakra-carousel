@@ -5,6 +5,7 @@
   "author": "Moses Okemwa",
   "linkedIn": "https://www.linkedin.com/in/mosesokemwa/",
   "keywords": [],
+  "license": "MIT",
   "main": "src/index.js",
   "dependencies": {
     "@chakra-ui/icons": "1.0.7",

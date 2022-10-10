@@ -1,23 +1,25 @@
-import React, { useState, useEffect } from "react";
-import { capsFirst } from "./utils";
-import "fontsource-inter/500.css";
-import ReactDOM from "react-dom";
-import theme from "./theme";
+import "@fontsource/inter";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
-  ChakraProvider,
-  extendTheme,
-  Container,
-  Heading,
   Button,
-  VStack,
-  HStack,
-  Text,
+  ChakraProvider,
+  Container,
   Flex,
-  Tag
+  HStack,
+  Heading,
+  Tag,
+  Text,
+  VStack,
+  extendTheme
 } from "@chakra-ui/react";
+import React, { useEffect, useState } from "react";
 
+import CarouselFadeExample from "./CarouselFadeExample";
 import ChakraCarousel from "./ChakraCarousel";
+import ReactDOM from "react-dom";
+import { capsFirst } from "./utils";
+import theme from "./theme";
 
 function App() {
   const [data, setData] = useState([]);
